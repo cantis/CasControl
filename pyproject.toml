@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "cascontrol"
+version = "0.1.0"
+description = "Calculation Engine for Pathfinder"
+authors = ["Evan Young <cantis@gmail.com>"]
+license = "LICENCE.md"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+flask = "^2.2.3"
+flask-sqlalchemy = "^3.0.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
